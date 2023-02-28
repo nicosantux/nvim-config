@@ -4,7 +4,8 @@ vim.g.loaded_netrwPlugin = 1
 require("nvim-tree").setup({
   sort_by = "case_sensitive",
   view = {
-    width = 30,
+    width = 40,
+    side = "right",
     mappings = {
       list = {
         { key = "u", action = "dir_up" },
